@@ -1,1 +1,48 @@
 /* Add your CSS style definitions to this file */
+body {
+    margin-top: 0em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 0em;
+}
+img {
+    width: 100%;
+}
+h1 , blockquote {
+    font-family: Roboto Slab;
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+    color: #9f2042;
+    text-transform: uppercase;
+}
+blockquote {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.25rem;
+    background-color: #f9f9f9;
+    width: 45%;
+    padding: 25px;
+}
+article {
+
+    font-family: OpenSans;
+}
+#details {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #a9a9ba;
+
+}
+#buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: #ec8295;
+    text-decoration: none;
+    border: 2px solid #ececec;
+  }
+
+  
