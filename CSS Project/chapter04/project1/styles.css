@@ -26,15 +26,12 @@ blockquote {
     padding: 25px;
 }
 article {
-
     font-family: OpenSans;
 }
-  
 #details {
     text-align: center;
     font-size: 1.25rem;
     color: #a9a9ba;
-
 }
 #buttons a {
     display: inline-block;
@@ -45,7 +42,6 @@ article {
     text-decoration: none;
     border: 2px solid #ececec;
   }
-  
   #buttons a:hover {
     background-color: #ec8295;
     color: #ffffff;
@@ -57,9 +53,11 @@ footer {
     padding: 15px;
     color: #ffffff;
     background-size: cover;
+    display: block;
+    clear: both;
 }
-
 footer > p > a {
     color: #ec8295;
     text-decoration: none;
 }
+  
