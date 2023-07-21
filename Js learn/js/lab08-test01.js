@@ -39,7 +39,7 @@
 // friend.push("Bar")
 
 // console.log(friend)
-let sport = ["Tennis","Run","Snow Board"]
+// let sport = ["Tennis","Run","Snow Board"]
 // console.log(sport)
 // sport.unshift("Football")
 // console.log(sport)
@@ -51,6 +51,29 @@ let sport = ["Tennis","Run","Snow Board"]
 // console.log(sport)
 
 
-let game = ["Swim","Muai"]
-console.log(sport)
-console.log(game)
+// let game = ["Swim","Muai"]
+// console.log(sport)
+// console.log(game)
+
+// // space syntax javascript for mix two arry
+// const FavGame = [...sport,...game]
+// console.log(FavGame)
+
+// for (let index = 0; index < FavGame.length; index++) {
+//     console.log(FavGame[index])
+    
+// }
+
+
+// //for of in js
+// for (let index of FavGame) {
+//     console.log(index)
+// }
+
+//array destructuring assignment
+const league = ["Liverpool","Arsenal","Manu","MCS","Wolve"]
+
+// let the1st = league[0]
+// let the2sc = league[1]
+let [the1st , the2sc , the3th , the4ft] = league
+console.log(the1st,the2sc,the3th,the4ft)
